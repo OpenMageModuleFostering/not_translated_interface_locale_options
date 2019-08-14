@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+    <name>Not_Translated_Interface_Locale_Options</name>
+    <version>1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Make Interface locale options not translated in the admin panel.</summary>
+    <description>This extension makes Interface locale options not translated in the admin panel.
+
+So all the "Interface Locale:" select  options are displayed in English at the bottom of the admin panel page.
+
+It overrides the getLanguageSelect() function in the Mage_Adminhtml_Block_Page_Footer class.
+
+
+Note: It solves the 
+
+Warning: simplexml_load_file() .. out of memory error ... in ... lib/Zend/Locale/Data.php on line 146
+
+problem on Hostgator shared hosting</description>
+    <notes>If you have ideas for improvements or find bugs, please send them to pektsekye@gmail.com</notes>
+    <authors><author><name>Stanislav</name><user>auto-converted</user><email>pektsekye@gmail.com</email></author></authors>
+    <date>2009-07-21</date>
+    <time>18:05:21</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Pektsekye_Adminhtml.xml" hash="8e81a4933a734632473251ed89534dde"/></dir></target><target name="magelocal"><dir name="Pektsekye"><dir name="Adminhtml"><dir name="Block"><dir name="Page"><file name="Footer.php" hash="4d8a5ce910d38e5a68cac7ad436a40f8"/></dir></dir><dir name="etc"><file name="config.xml" hash="25feb8c371018591fb47510676f8fac5"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

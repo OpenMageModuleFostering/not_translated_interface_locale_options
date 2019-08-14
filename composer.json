@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Not_Translated_Interface_Locale_Options",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Make Interface locale options not translated in the admin panel.",
+    "authors": [
+    {
+        "name": "Stanislav",
+        "email": "pektsekye@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
